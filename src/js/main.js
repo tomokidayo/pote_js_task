@@ -53,13 +53,10 @@ function reset() {
 //電卓処理
 
 //必要な変数
-
-
 let calcDisplay = document.getElementById("cal_display");
 let firstOperand = null; //初期入力値を保存
 let operator = null;     //演算子を格納
 let waitingForSecondOperand = false; //二つ目の数値を入力中かどうか
-
 
 //数字ボタンが押されたときの処理
 function insertNumber(digit) {
